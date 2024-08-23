@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista equipo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="../Styles/lista_equipo.css">
+    <link rel="icon" href="../imagenes/logo-Neymar.png">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <i class="fa-solid fa-bars menu-icons"></i>
+            <span class="logo-name">Equipo de Neymar</span>
+        </div>   
+        
+         <div class="sidebar">
+            <div class="logo">
+                <i class="fa-solid fa-bars menu-icons"></i>
+                <span class="logo-name">Equipo de Neymar</span>
+            </div> 
+
+
+            <div class="sidebar-content">
+                <ul class="lists">
+                    <li class="list">
+                        <a href="../proyeto_html/dashboard.html" class="nav-link">
+                            <i class="fa-solid fa-house icon"></i>
+                            <span class="link">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#" class="nav-link">
+                            <i class="fa-solid fa-video icon"></i>
+                            <span class="link">Grabaciones</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#" class="nav-link">
+                            <i class="fa-solid fa-circle-info icon"></i>
+                            <span class="link">Información</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../proyeto_html/lista_equipo.html" class="nav-link">
+                            <i class="fa-solid fa-user-group icon"></i>
+                            <span class="link">Lista equipo</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <div class="div-bottom-content logout">
+                    <li class="list">
+                        <a href="#" class="nav-link">
+                            <i class="fa-solid fa-right-from-bracket icon"></i>
+                            <span class="link">Cerrar sesión</span>
+                        </a>
+                    </li>
+                </div>
+            </div>
+
+         </div>
+    </nav>
+
+    <section class="overlay"></section>
+
+    <section class="section-list">
+        <h1 class="title-list">Lista de agentes inmobiliarios</h1>
+        <table class="section-table">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Correo</th>
+                    <th>Número</th>
+                </tr>
+            </thead>
+            <tbody id="agents-list"></tbody>
+
+        </table>
+    </section>
+
+
+    <script src="../proyeto_js/lista_equipo.js"></script>
+</body>
+</html>
